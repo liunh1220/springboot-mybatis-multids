@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  tomcat:uri-encoding: UTF-8
+
+spring:
+  application:
+    name: mybatis-core
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  messages:
+    encoding: UTF-8
+  devtools:
+    restart:
+      exclude: static/**
+      additional-exclude: static/**,public/**
+  session:
+    store-type: none
+  profiles:
+    active: dev
+
+# ============================================ 日志 ====================================================
+logging:
+  pattern:
+#    console: %d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n
+#    file: %d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n
