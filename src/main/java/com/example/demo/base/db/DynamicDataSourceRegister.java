@@ -1,4 +1,4 @@
-package com.example.demo.base;
+package com.example.demo.base.db;
 
 import com.example.demo.model.po.DataSourceNames;
 import org.slf4j.Logger;

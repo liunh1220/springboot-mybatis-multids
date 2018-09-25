@@ -1,4 +1,4 @@
-package com.example.demo.base;
+package com.example.demo.base.db;
 
 import com.example.demo.annotation.TargetDataSource;
 
